@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\Services;
 
-class DiscountPolicy
+final class DiscountPolicy
 {
     public function apply(float $subtotal, bool $vip = false): float
     {
