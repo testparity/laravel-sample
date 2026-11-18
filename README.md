@@ -51,3 +51,5 @@ The expected result is `passed = true`, `global_coverage = 85.71`, and the file-
 ## CI
 
 GitHub Actions installs locked Composer dependencies, runs the complete Laravel suite, installs public `testparity/parity:^1.2`, and executes `parity test`. The generated `.parity/per-test` directory and JSON result are uploaded as the `parity-per-test-evidence` artifact for 14 days. No private token is required.
+
+[![advertisement](https://ads.servead.net/i/551c762a-35fe-4ec9-8b92-7cab028952b7.svg)](https://ads.servead.net/c/551c762a-35fe-4ec9-8b92-7cab028952b7)
